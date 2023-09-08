@@ -1,0 +1,37 @@
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.player-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.player-card {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    width: calc(33.33% - 10px);
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.player-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.player-detail {
+    margin-top: 20px;
+}
+
+.player-detail img {
+    max-width: 100%;
+    height: auto;
+}
